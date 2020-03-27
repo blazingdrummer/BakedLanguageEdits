@@ -27,7 +27,7 @@ Join the [Baked Discord](https://discord.gg/QRtdUbV), or DM on Discord or Twitte
 `v1.0.0`
 - initial release
 
-v1.0.1
+`v1.0.1`
 - changed example armor values on Rose Buckler from 1, 10, 50 to 100, 200, 300
   - the old values weren't that useful when Rose Buckler gives 30 armor per stack
 
