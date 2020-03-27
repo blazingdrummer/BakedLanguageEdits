@@ -4,5 +4,6 @@
   "website_url": "https://discord.gg/QRtdUbV",
   "description": "A language pack for the Baked modpack. Adds detailed tooltips and descriptions, explains changes made by the mods, and enhances the game's lore.",
   "dependencies": [
+    "Harb-AssetPlusRequester-1.0.0"
   ]
 }
