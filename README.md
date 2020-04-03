@@ -1,7 +1,7 @@
 # Disclaimer & Usage
 Hey, this is designed for use with the [Baked modpack](https://thunderstore.io/package/blazingdrummer/BakedModpack/). I would really appreciate if you checked it out!
 
-Using these edits without the associated modpack might give you some confusing results (mainly descriptions that don't match behavior and some weird tooltips), but you are welcome to use it as a template for personal use or other packs if you like. Do your best RedRiot impression and add funny names or pop-culture references, I don't care. Use it however you want!
+Using these edits without the associated modpack might give you some confusing results (mainly descriptions that don't match behavior and some weird tooltips), but you are welcome to use it as a template for personal use or other packs if you'd like. Do your best RedRiot impression and add funny names or pop-culture references, I don't care. Use it however you want!
 
 ## What Does It Do?
 Item descriptions in-game are a lot more complete, equipment display their base cooldowns, and I generally did my best to make sure you never have to run to a wiki to figure out how something works. I've added in custom descriptions for the elite equipment based on the most accurate numbers I could find, done some sneaky highlighting to emphasize this game's really unique existing lore, and even added some of my own. Don't worry, I didn't give everything away, and there are still plenty of secrets hidden in logbook entries and the like.
