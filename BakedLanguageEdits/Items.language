@@ -53,8 +53,8 @@
 	"ITEM_FEATHER_DESC": "Gain <style=cIsUtility>+1</style> <style=cStack>(+1 per stack)</style> maximum <style=cIsUtility>jump count</style>.", 
  
 	"ITEM_CHAINLIGHTNING_NAME": "Ukulele",
-	"ITEM_CHAINLIGHTNING_PICKUP": "<color=#007fff>...and his music was electric.</color>\n\n<style=cIsDamage>25%</style> chance to fire <style=cIsDamage>chain lighting</style> for <style=cIsDamage>80%</style> TOTAL damage on up to <style=cIsDamage>3 <style=cStack>(+2 per stack)</style></style> targets within <style=cIsDamage>20m</style> <style=cStack>(+2m per stack)</style>.",
-	"ITEM_CHAINLIGHTNING_DESC": "<color=#007fff>...and his music was electric.</color>\n\n<style=cIsDamage>25%</style> chance to fire <style=cIsDamage>chain lighting</style> for <style=cIsDamage>80%</style> TOTAL damage on up to <style=cIsDamage>3 <style=cStack>(+2 per stack)</style></style> targets within <style=cIsDamage>20m</style> <style=cStack>(+2m per stack)</style>.",
+	"ITEM_CHAINLIGHTNING_PICKUP": "<color=#007fff>...and his music was electric.</color>\n\n<style=cIsDamage>25%</style> chance to fire <style=cIsDamage>chain lightning</style> for <style=cIsDamage>80%</style> TOTAL damage on up to <style=cIsDamage>3 <style=cStack>(+2 per stack)</style></style> targets within <style=cIsDamage>20m</style> <style=cStack>(+2m per stack)</style>.",
+	"ITEM_CHAINLIGHTNING_DESC": "<color=#007fff>...and his music was electric.</color>\n\n<style=cIsDamage>25%</style> chance to fire <style=cIsDamage>chain lightning</style> for <style=cIsDamage>80%</style> TOTAL damage on up to <style=cIsDamage>3 <style=cStack>(+2 per stack)</style></style> targets within <style=cIsDamage>20m</style> <style=cStack>(+2m per stack)</style>.",
 
 	"ITEM_SEED_NAME": "Leeching Seed",
 	"ITEM_SEED_PICKUP": "Dealing damage <style=cIsHealing>heals</style> you for <style=cIsHealing>1 <style=cStack>(+1 per stack)</style> health</style>.",
@@ -374,8 +374,8 @@
 	"ITEM_NOVAONLOWHEALTH_DESC" : "Falling below <style=cIsHealth>25% health</style> causes you to explode, dealing <style=cIsDamage>6000% base damage</style>. Recharges every <style=cIsUtility>30 seconds</style> <style=cStack>(-50% per stack, exponential)</style>.",
 	
 	"ITEM_LUNARTRINKET_NAME" : "Beads of Fealty",
-	"ITEM_LUNARTRINKET_PICKUP" : "Seems to do nothing... <style=cDeath>but...</style>\n",
-	"ITEM_LUNARTRINKET_DESC" : "Seems to do nothing... <style=cDeath>but...</style>\n",
+	"ITEM_LUNARTRINKET_PICKUP" : "Seems to do nothing... <style=cDeath>but...</style>",
+	"ITEM_LUNARTRINKET_DESC" : "Instead of <style=cDeath>obliterating yourself</style>, you are sent to face a <color=#ad41f1>Knight of N'kuhana</color>.",
 
 	"ITEM_REPULSIONARMORPLATE_NAME" : "Repulsion Armor Plate",
 	"ITEM_REPULSIONARMORPLATE_PICKUP" : "Reduce all <style=cIsDamage>incoming damage</style> by <style=cIsDamage>5</style> <style=cStack>(+5 per stack)</style>. Cannot be reduced below <style=cIsDamage>1</style>.",
