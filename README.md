@@ -21,7 +21,7 @@ Join the [Baked Discord](https://discord.gg/QRtdUbV), or DM on Discord or Twitte
 
 ### TODO
   - considering making a mod specific to this pack that would allow me handle the cases that AssetPlus can't, such as editing the tooltips of modded items at runtime or calculating the current proc chance of items (ie replicating the function of ItemStatsMod)
-  - waiting on Hopoo to add support for editing AffixYellow and give AffixHaunted a texture
+  - waiting on Hopoo to add support for editing AffixYellow
 
 ## Changelog
 `v1.0.0`
@@ -64,3 +64,37 @@ Join the [Baked Discord](https://discord.gg/QRtdUbV), or DM on Discord or Twitte
 
   - added AssetPlusRequester as a dependency :facepalm:
   - README: updated formatting
+
+`v2.0.0`
+
+  - [ ] Artifacts
+  - [ ] New Skill Variants:
+    - Commando Utility
+    - Huntress Primary
+    - Acrid Utility
+    - Acrid Passive
+    - Engineer Utility
+  - [x] New Items/Equipment
+    - Repulsion Armor Plate
+    - Squid Polyp
+    - Death Mark
+    - Interstellar Desk Plant
+    - Sawmerang (equipment)
+    - Recycler (equipment)
+    - Focused Convergence (lunar)
+    - Artifact Key (Boss)
+  - [x] infusion modifications
+  - [x] medkit
+  - [x] royal capacitor
+    - mention dodge timing?
+  - [x] spectral circlet
+  - [x] Huntress: Piercing Wind can now be achieved on Scorched Acres, make sure this is noted in achievement text
+  - [x] check Spinel Tonic duration (should be 20 seconds)
+  - [ ] add a note about solid ice walls to Artificer?
+
+TODO: BakedLanguageEdits update for GeneralFixes
+    death mark changes porting over from roguewisp
+    acrid blight changes
+    gesture can't break enigma
+    honor elites are full health/full cost
+    will'o'wisp - no more range on stack, more damage?
