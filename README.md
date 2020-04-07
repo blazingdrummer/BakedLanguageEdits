@@ -65,7 +65,7 @@ Join the [Baked Discord](https://discord.gg/QRtdUbV), or DM on Discord or Twitte
   - added AssetPlusRequester as a dependency :facepalm:
   - README: updated formatting
 
-`v2.0.0`
+`v2.0.1`
 
   - [ ] Artifacts
   - [ ] New Skill Variants:
@@ -90,11 +90,8 @@ Join the [Baked Discord](https://discord.gg/QRtdUbV), or DM on Discord or Twitte
   - [x] spectral circlet
   - [x] Huntress: Piercing Wind can now be achieved on Scorched Acres, make sure this is noted in achievement text
   - [x] check Spinel Tonic duration (should be 20 seconds)
-  - [ ] add a note about solid ice walls to Artificer?
-
-TODO: BakedLanguageEdits update for GeneralFixes
-    death mark changes porting over from roguewisp
-    acrid blight changes
-    gesture can't break enigma
-    honor elites are full health/full cost
-    will'o'wisp - no more range on stack, more damage?
+  - General Fixes Changes:
+    - When acrid has blight selected as passive, all attacks now apply blight. Attacks that already applied blight apply three stacks.
+  - Death mark changes from wispy are now in here instead
+  - Focused convergence is 25% reduced radius, 25% increased rate per stack. Caps at 10 instead of 3 (These are exponential, like glass)
+  - WillOWisp no longer stacks range. Base range increased to 15, damage increased to 400% + 100% per stack
