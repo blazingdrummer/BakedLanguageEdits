@@ -38,7 +38,7 @@ There's also some custom additions I did to the game's lore. I tried to keep the
 
 <details>
   <summary>This is only one example. It's hidden behind a spoiler, and I kept it vague.</summary>
-  [SPOILER](Images/SPOILER.png)
+  ![SPOILER](Images/SPOILER.png)
 </details>
 
 ## How Do You Make Something Like This?
