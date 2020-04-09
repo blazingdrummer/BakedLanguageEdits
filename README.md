@@ -65,33 +65,8 @@ Join the [Baked Discord](https://discord.gg/QRtdUbV), or DM on Discord or Twitte
   - added AssetPlusRequester as a dependency :facepalm:
   - README: updated formatting
 
-`v2.0.1`
+`v2.0.2`
 
-  - [ ] Artifacts
-  - [ ] New Skill Variants:
-    - Commando Utility
-    - Huntress Primary
-    - Acrid Utility
-    - Acrid Passive
-    - Engineer Utility
-  - [x] New Items/Equipment
-    - Repulsion Armor Plate
-    - Squid Polyp
-    - Death Mark
-    - Interstellar Desk Plant
-    - Sawmerang (equipment)
-    - Recycler (equipment)
-    - Focused Convergence (lunar)
-    - Artifact Key (Boss)
-  - [x] infusion modifications
-  - [x] medkit
-  - [x] royal capacitor
-    - mention dodge timing?
-  - [x] spectral circlet
-  - [x] Huntress: Piercing Wind can now be achieved on Scorched Acres, make sure this is noted in achievement text
-  - [x] check Spinel Tonic duration (should be 20 seconds)
-  - General Fixes Changes:
-    - When acrid has blight selected as passive, all attacks now apply blight. Attacks that already applied blight apply three stacks.
-  - Death mark changes from wispy are now in here instead
-  - Focused convergence is 25% reduced radius, 25% increased rate per stack. Caps at 10 instead of 3 (These are exponential, like glass)
-  - WillOWisp no longer stacks range. Base range increased to 15, damage increased to 400% + 100% per stack
+  - Artifact 2.0 update
+    - gave all of the new items and descriptions the same treatment (more complete in-game descriptions, cleaned up a couple typos, equipment cooldowns, etc)
+  - updated for new GeneralFixes changes, removal of AcridM1Heal, poison nerfs from AcridPoisonBuffs, removal of VanillaTweaks, 
