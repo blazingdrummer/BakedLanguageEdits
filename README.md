@@ -4,7 +4,42 @@ Hey, this is designed for use with the [Baked modpack](https://thunderstore.io/p
 Using these edits without the associated modpack might give you some confusing results (mainly descriptions that don't match behavior and some weird tooltips), but you are welcome to use it as a template for personal use or other packs if you'd like. Do your best RedRiot impression and add funny names or pop-culture references, I don't care. Use it however you want!
 
 ## What Does It Do?
-Item descriptions in-game are a lot more complete, equipment display their base cooldowns, and I generally did my best to make sure you never have to run to a wiki to figure out how something works. I've added in custom descriptions for the elite equipment based on the most accurate numbers I could find, done some sneaky highlighting to emphasize this game's really unique existing lore, and even added some of my own. Don't worry, I didn't give everything away, and there are still plenty of secrets hidden in logbook entries and the like.
+BLE (BakedLanguageEdits) makes changes to the in-game text to support changes made by the modpack and to give users more information while they are playing.
+
+Pinging & picking up an item gives you more exact stats as to what it does, where in vanilla, this would simply say something like "increases attack speed". Normally, this information is only available in a wiki while you are playing, or in the logbook. It could be argued that this is a skill aspect of the game, and I agree that memorizing what items do is important, but personally I think that it's an unnecessary step. If you have to read every description, you'll be keeping a slower pace than if you already have an item's function memorized. And having this resource allows you to potentially theorycraft build options on the fly (eg figuring out if your current build will support infinite tonic).
+
+![ItemPingDescription](Images/ItemPingDescription.png)
+
+Hovering over an item in the Tab menu gives you a similar description.
+
+![ItemHoverDescription](Images/ItemHoverDescription.png)
+
+Equipment also shows more exact numbers, as well as the base cooldown.
+
+![EquipmentPingDescription](Images/EquipmentPingDescription.png)
+
+And supports hovering.
+
+![EquipmentHoverDescription](Images/EquipmentHoverDescription.png)
+
+This become particularly useful with something like Tonic, which has a lot of effects. Items like this I've done a large amount of formatting and editing on longer description like this in order to ensure they don't run offscreen. This might have problems on different resolutions, which I could consider looking into potential solutions for.
+
+![SpinelTonic](Images/SpinelTonic.png)
+
+I also moved the negative effects onto the description for Tonic Affliction, and various other small tweaks like this.
+
+![TonicAffliction](Images/TonicAffliction.png)
+
+Where this all really shines is with an item like Gesture that is affected by a mod (in this case, GeneralFixes or at least it will be soon). Gesture's default description does not mention it having a break chance, but with BakedLanguageEdits, it does now.
+
+![GestureOfTheDrowned_Modded](Images/GestureOfTheDrowned_Modded.png)
+
+There's also some custom additions I did to the game's lore. I tried to keep these as subtle as possible, and not tread on any toes, while also respecting the original game's lore. Because it's not truly canon, I tried to focus on highlighting the existing known lore as much as possible instead of going crazy with my own ideas.
+
+<details>
+  <summary>This is only one example. It's hidden behind a spoiler, and I kept it vague.</summary>
+  [SPOILER](Images/SPOILER.png)
+</details>
 
 ## How Do You Make Something Like This?
 This might be a useful example for how to use AssetPlus to replace the game's language files in a non-destructive way. Feel free to mess around with this mod without having to worry about messing up your game.
