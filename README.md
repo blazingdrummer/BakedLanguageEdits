@@ -36,10 +36,7 @@ Where this all really shines is with an item like Gesture that is affected by a 
 
 There's also some custom additions I did to the game's lore. I tried to keep these as subtle as possible, and not tread on any toes, while also respecting the original game's lore. Because it's not truly canon, I tried to focus on highlighting the existing known lore as much as possible instead of going crazy with my own ideas.
 
-<details>
-  <summary>This is only one example. It's hidden behind a spoiler, and I kept it vague.</summary>
-  ![SPOILER](Images/SPOILER.png)
-</details>
+![SPOILER](Images/SPOILER.png)
 
 ## How Do You Make Something Like This?
 This might be a useful example for how to use AssetPlus to replace the game's language files in a non-destructive way. Feel free to mess around with this mod without having to worry about messing up your game.
