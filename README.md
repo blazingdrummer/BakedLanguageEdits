@@ -8,35 +8,35 @@ BLE (BakedLanguageEdits) makes changes to the in-game text to support changes ma
 
 Pinging & picking up an item gives you more exact stats as to what it does, where in vanilla, this would simply say something like "increases attack speed". Normally, this information is only available in a wiki while you are playing, or in the logbook. It could be argued that this is a skill aspect of the game, and I agree that memorizing what items do is important, but personally I think that it's an unnecessary step. If you have to read every description, you'll be keeping a slower pace than if you already have an item's function memorized. And having this resource allows you to potentially theorycraft build options on the fly (eg figuring out if your current build will support infinite tonic).
 
-![ItemPingDescription](Images/ItemPingDescription.png)
+![ItemPingDescription](https://github.com/blazingdrummer/BakedLanguageEdits/blob/master/Images/ItemPingDescription.png)
 
 Hovering over an item in the Tab menu gives you a similar description.
 
-![ItemHoverDescription](Images/ItemHoverDescription.png)
+![ItemHoverDescription](https://github.com/blazingdrummer/BakedLanguageEdits/blob/master/Images/ItemHoverDescription.png)
 
 Equipment also shows more exact numbers, as well as the base cooldown.
 
-![EquipmentPingDescription](Images/EquipmentPingDescription.png)
+![EquipmentPingDescription](https://github.com/blazingdrummer/BakedLanguageEdits/blob/master/Images/EquipmentPingDescription.png)
 
 And supports hovering.
 
-![EquipmentHoverDescription](Images/EquipmentHoverDescription.png)
+![EquipmentHoverDescription](https://github.com/blazingdrummer/BakedLanguageEdits/blob/master/Images/EquipmentHoverDescription.png)
 
 This become particularly useful with something like Tonic, which has a lot of effects. Items like this I've done a large amount of formatting and editing on longer description like this in order to ensure they don't run offscreen. This might have problems on different resolutions, which I could consider looking into potential solutions for.
 
-![SpinelTonic](Images/SpinelTonic.png)
+![SpinelTonic](https://github.com/blazingdrummer/BakedLanguageEdits/blob/master/Images/SpinelTonic.png)
 
 I also moved the negative effects onto the description for Tonic Affliction, and various other small tweaks like this.
 
-![TonicAffliction](Images/TonicAffliction.png)
+![TonicAffliction](https://github.com/blazingdrummer/BakedLanguageEdits/blob/master/Images/TonicAffliction.png)
 
 Where this all really shines is with an item like Gesture that is affected by a mod (in this case, GeneralFixes or at least it will be soon). Gesture's default description does not mention it having a break chance, but with BakedLanguageEdits, it does now.
 
-![GestureOfTheDrowned_Modded](Images/GestureOfTheDrowned_Modded.png)
+![GestureOfTheDrowned_Modded](https://github.com/blazingdrummer/BakedLanguageEdits/blob/master/Images/GestureOfTheDrowned_Modded.png)
 
 There's also some custom additions I did to the game's lore. I tried to keep these as subtle as possible, and not tread on any toes, while also respecting the original game's lore. Because it's not truly canon, I tried to focus on highlighting the existing known lore as much as possible instead of going crazy with my own ideas.
 
-![SPOILER](Images/SPOILER.png)
+![SPOILER](https://github.com/blazingdrummer/BakedLanguageEdits/blob/master/Images/SPOILER.png)
 
 ## How Do You Make Something Like This?
 This might be a useful example for how to use AssetPlus to replace the game's language files in a non-destructive way. Feel free to mess around with this mod without having to worry about messing up your game.
@@ -102,3 +102,7 @@ Join the [Baked Discord](https://discord.gg/QRtdUbV), or DM on Discord or Twitte
   - Artifact 2.0 update
     - gave all of the new items and descriptions the same treatment (more complete in-game descriptions, cleaned up a couple typos, equipment cooldowns, etc)
   - updated for new GeneralFixes changes, removal of AcridM1Heal, poison nerfs from AcridPoisonBuffs, removal of VanillaTweaks, and removal of MakeMonsterToothGreatAgain
+
+`v2.0.3`
+
+  - fixed README images
