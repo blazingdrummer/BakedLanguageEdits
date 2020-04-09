@@ -101,4 +101,4 @@ Join the [Baked Discord](https://discord.gg/QRtdUbV), or DM on Discord or Twitte
 
   - Artifact 2.0 update
     - gave all of the new items and descriptions the same treatment (more complete in-game descriptions, cleaned up a couple typos, equipment cooldowns, etc)
-  - updated for new GeneralFixes changes, removal of AcridM1Heal, poison nerfs from AcridPoisonBuffs, removal of VanillaTweaks, 
+  - updated for new GeneralFixes changes, removal of AcridM1Heal, poison nerfs from AcridPoisonBuffs, removal of VanillaTweaks, and removal of MakeMonsterToothGreatAgain
