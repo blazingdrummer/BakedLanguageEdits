@@ -30,7 +30,7 @@ I also moved the negative effects onto the description for Tonic Affliction, and
 
 ![TonicAffliction](https://raw.githubusercontent.com/blazingdrummer/BakedLanguageEdits/master/Images/TonicAffliction.png)
 
-Where this all really shines is with an item like Gesture that is affected by a mod (in this case, GeneralFixes or at least it will be soon). Gesture's default description does not mention it having a break chance, but with BakedLanguageEdits, it does now.
+Where this all really shines is with an item like Gesture that is affected by a mod (in this case, GeneralFixes). Gesture's default description does not mention it having a break chance, but with BakedLanguageEdits, it does now.
 
 ![GestureOfTheDrowned_Modded](https://raw.githubusercontent.com/blazingdrummer/BakedLanguageEdits/master/Images/GestureOfTheDrowned_Modded.png)
 
@@ -41,11 +41,15 @@ There's also some custom additions I did to the game's lore. I tried to keep the
 ## How Do You Make Something Like This?
 This might be a useful example for how to use AssetPlus to replace the game's language files in a non-destructive way. Feel free to mess around with this mod without having to worry about messing up your game.
 
-I've also included a file named "styles.txt" that I used as my personal notes when creating this that contains all of the formatting syntax I (and orignally Hopoo) used. If you are interested in doing any language edits yourself, I hope you will find that useful.
+I've also included a file named "styles.txt" that I used as my personal notes when creating this that contains all of the formatting syntax I (and originally Hopoo) used. If you are interested in doing any language edits yourself, I hope you will find that useful.
 
 # Contact Info
-Join the [Baked Discord](https://discord.gg/QRtdUbV), or DM on Discord or Twitter [@blazingdrummer](https://twitter.com/blazingdrummer).
+Join the [Baked Discord](https://discord.gg/QRtdUbV), or DM me on Discord or Twitter [@blazingdrummer](https://twitter.com/blazingdrummer).
 **Please don't bug other devs with issues or feedback. I'd be happy to help you and can pass on any information that they will need. Thanks!**
+
+If you do find something that looks off or needs editing, please send me a screenshot like this. I only have two eyes and am sure I miss a lot of detail.
+
+![EXAMPLE](https://raw.githubusercontent.com/blazingdrummer/BakedLanguageEdits/master/Images/EXAMPLE.png)
 
 ## Credits
   - Harb for creating and helping me figure out the AssetPlusRequester
@@ -53,7 +57,6 @@ Join the [Baked Discord](https://discord.gg/QRtdUbV), or DM on Discord or Twitte
 
 ### TODO
   - considering making a mod specific to this pack that would allow me handle the cases that AssetPlus can't, such as editing the tooltips of modded items at runtime or calculating the current proc chance of items (ie replicating the function of ItemStatsMod)
-  - waiting on Hopoo to add support for editing AffixYellow
 
 ## Changelog
 `v1.0.0`
@@ -106,3 +109,10 @@ Join the [Baked Discord](https://discord.gg/QRtdUbV), or DM on Discord or Twitte
 `v2.0.4`
 
   - fixed README images... uhh again
+
+`v2.0.5`
+
+  - updated this page's link to direct to this project's GitHub
+  - started to modify a few character's ability descriptions; this is just the start of a large process of adding more detail to character select
+  - fixed wording on Recycler to be more clear
+  - clarified that the pack's User Guide is on the wiki

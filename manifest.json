@@ -1,7 +1,7 @@
 {
   "name": "BakedLanguageEdits",
-  "version_number": "2.0.4",
-  "website_url": "https://discord.gg/QRtdUbV",
+  "version_number": "2.0.5",
+  "website_url": "https://github.com/blazingdrummer/BakedLanguageEdits",
   "description": "A language pack originally created for the Baked modpack. Adds detailed tooltips and descriptions, explains changes made by the mods, and enhances the game's lore.",
   "dependencies": [
     "Harb-AssetPlusRequester-1.0.0"
