@@ -127,4 +127,5 @@ If you do find something that looks off or needs editing, please send me a scree
 
 `v2.0.7`
 
-  - small tweaks to stay up-to-date w/ GeneralFixes
+  - small tweaks to stay up-to-date w/ GeneralFixes and BakedModpack update
+  - fixed some strange indenting (no in-game impact)
