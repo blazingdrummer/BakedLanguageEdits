@@ -129,3 +129,7 @@ If you do find something that looks off or needs editing, please send me a scree
 
   - small tweaks to stay up-to-date w/ GeneralFixes and BakedModpack update
   - fixed some strange indenting (no in-game impact)
+
+`2.0.8`
+
+  - slightly adjusted BakedLanguageEdits to match Blight changes in GeneralFixes
