@@ -181,7 +181,7 @@
 	"CROCO_BODY_NAME" : "Acrid",
 	"CROCO_BODY_SUBTITLE" : "Test Subject",
 	"CROCO_PASSIVE_NAME" : "Poison",
-	"CROCO_PASSIVE_DESCRIPTION" : "Certain attacks <style=cIsHealing>poison</style> enemies, dealing <style=cIsDamage>damage per second</style> equal to <style=cIsHealth>0.5% of their maximum health</style> for 10 seconds. <style=cIsHealing>Poison</style> cannot <style=cDeath>kill</style> enemies.",
+	"CROCO_PASSIVE_DESCRIPTION" : "Certain attacks <style=cIsHealing>poison</style> enemies, dealing <style=cIsDamage>damage per second</style> equal to <style=cIsHealth>5% of their maximum health</style> for 10 seconds. <style=cIsHealing>Poison</style> cannot <style=cDeath>kill</style> enemies.",
 	"CROCO_PASSIVE_ALT_NAME" : "Blight",
 	"CROCO_PASSIVE_ALT_DESCRIPTION" : "ALL attacks apply stacking <style=cIsDamage>blight</style> that scales based on your <style=cIsDamage>damage</style> and <style=cIsUtility>proximity to the victim</style> and can <style=cDeath>kill</style> enemies. Attacks that would normally apply <style=cIsHealing>poison</style> apply <style=cIsDamage>2</style> stacks of <style=cIsDamage>blight</style> instead.",
 	"CROCO_PRIMARY_NAME" : "Vicious Wounds",
