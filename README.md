@@ -8,35 +8,35 @@ BLE (BakedLanguageEdits) makes changes to the in-game text to support changes ma
 
 Hovering over an item in the Tab menu or picking it up gives you more exact stats as to what it does, where in vanilla, this would simply say something like "increases attack speed". Normally, this information is only available in a wiki while you are playing, or in the logbook. It could be argued that this is a skill aspect of the game, and I agree that memorizing what items do is important, but personally I think that it's an unnecessary step. If you have to read every description, you'll be keeping a slower pace than if you already have an item's function memorized. And having this resource allows you to potentially theorycraft build options on the fly (eg figuring out if your current build will support infinite tonic).
 
-![ItemHoverDescription](https://raw.githubusercontent.com/blazingdrummer/BakedLanguageEdits/master/Images/ItemHoverDescription.png)
+![ItemHoverDescription](https://raw.githubusercontent.com/blazingdrummer/BakedLanguageEdits/master/images/ItemHoverDescription.png)
 
 Assuming you are playing with the highly recommended [Pingprovements](https://thunderstore.io/package/pixeldesu/Pingprovements/), pinging an item gives you a similar description.
 
-![ItemPingDescription](https://raw.githubusercontent.com/blazingdrummer/BakedLanguageEdits/master/Images/ItemPingDescription.png)
+![ItemPingDescription](https://raw.githubusercontent.com/blazingdrummer/BakedLanguageEdits/master/images/ItemPingDescription.png)
 
 Equipment also shows more exact numbers, as well as the base cooldown.
 
-![EquipmentHoverDescription](https://raw.githubusercontent.com/blazingdrummer/BakedLanguageEdits/master/Images/EquipmentHoverDescription.png)
+![EquipmentHoverDescription](https://raw.githubusercontent.com/blazingdrummer/BakedLanguageEdits/master/images/EquipmentHoverDescription.png)
 
 And supports pings.
 
-![EquipmentPingDescription](https://raw.githubusercontent.com/blazingdrummer/BakedLanguageEdits/master/Images/EquipmentPingDescription.png)
+![EquipmentPingDescription](https://raw.githubusercontent.com/blazingdrummer/BakedLanguageEdits/master/images/EquipmentPingDescription.png)
 
 This becomes particularly useful with something like Spinel Tonic, which has a lot of effects. I've done a large amount of formatting and editing on longer descriptions like this in order to ensure they don't run offscreen. This might have problems on different resolutions, which I could consider looking into potential solutions for.
 
-![SpinelTonic](https://raw.githubusercontent.com/blazingdrummer/BakedLanguageEdits/master/Images/SpinelTonic.png)
+![SpinelTonic](https://raw.githubusercontent.com/blazingdrummer/BakedLanguageEdits/master/images/SpinelTonic.png)
 
 I also moved the negative effects onto the description for Tonic Affliction. There are many other small tweaks like this.
 
-![TonicAffliction](https://raw.githubusercontent.com/blazingdrummer/BakedLanguageEdits/master/Images/TonicAffliction.png)
+![TonicAffliction](https://raw.githubusercontent.com/blazingdrummer/BakedLanguageEdits/master/images/TonicAffliction.png)
 
 Where this all really shines is with an item like Gesture that is affected by a mod (in this case, GeneralFixes). Gesture's default description does not mention it having a break chance, but with BakedLanguageEdits, it does now.
 
-![GestureOfTheDrowned_Modded](https://raw.githubusercontent.com/blazingdrummer/BakedLanguageEdits/master/Images/GestureOfTheDrowned_Modded.png)
+![GestureOfTheDrowned_Modded](https://raw.githubusercontent.com/blazingdrummer/BakedLanguageEdits/master/images/GestureOfTheDrowned_Modded.png)
 
 There's also some custom additions I did to the game's lore. I tried to keep these as subtle as possible, and not tread on any toes, while also respecting the original game's lore. Because it's not truly canon, I tried to focus on highlighting the existing known lore as much as possible instead of going crazy with my own ideas.
 
-![SPOILER](https://raw.githubusercontent.com/blazingdrummer/BakedLanguageEdits/master/Images/SPOILER.png)
+![SPOILER](https://raw.githubusercontent.com/blazingdrummer/BakedLanguageEdits/master/images/SPOILER.png)
 
 ## How Do You Make Something Like This?
 This might be a useful example for how to use AssetPlus to replace the game's language files in a non-destructive way. Feel free to mess around with this mod without having to worry about messing up your game.
@@ -49,14 +49,11 @@ Join the [Baked Discord](https://discord.gg/CYYJdrz), or DM me on Discord or Twi
 
 If you do find something that looks off or needs editing, please send me a screenshot like this. I only have two eyes and am sure I miss a lot of detail.
 
-![EXAMPLE](https://raw.githubusercontent.com/blazingdrummer/BakedLanguageEdits/master/Images/EXAMPLE.png)
+![EXAMPLE](https://raw.githubusercontent.com/blazingdrummer/BakedLanguageEdits/master/images/EXAMPLE.png)
 
 ## Credits
   - Harb for creating and helping me figure out the AssetPlusRequester
   - ontrigger's ItemStatsMod for the original inspiration that I expanded upon
-
-### TODO
-  - considering making a mod specific to this pack that would allow me handle the cases that AssetPlus can't, such as editing the tooltips of modded items at runtime or calculating the current proc chance of items (ie replicating the function of ItemStatsMod)
 
 ## Changelog
 `v1.0.0`
