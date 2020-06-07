@@ -35,6 +35,24 @@ namespace blazingdrummer.BakedLanguageEdits
 		private void Awake() //Called when loaded by BepInEx.
 		{
 			RoR2.Run.onRunStartGlobal += this.Run_onRunStartGlobal; //need this to handle Diluvian's difficulty-based edits
+
+			#region DiluvianDescriptionEdits
+			string text = "For those found wanting. <color=#ad41f1>N'Kuhana</color> watches with interest.<style=cStack>\n"; //the additional "/n" creates a space between the main body and the details
+			text = string.Join("\n", new string[]
+			{
+				text,
+				">Difficulty Scaling: +75%",
+				">Player Health Regeneration: -60%",
+				">Tougher Times: Rolls with disadvantage",
+				">Monster Health Regeneration: +1.5% of MaxHP per second (out of danger)",
+				">Oneshot Protection: Protects only 1% of max health",
+				">Oneshot Protection: Also applies to monsters",
+				">Elites: 20% cheaper",
+				">Shrine of Blood: Cost hidden and random</style>"
+			});
+
+			this.ReplaceString("DIFFICULTY_DILUVIAN_DESCRIPTION", text);
+			#endregion
 		}
 
 		private void Start() //Called at the first frame of the game.
@@ -51,7 +69,7 @@ namespace blazingdrummer.BakedLanguageEdits
 
 		private readonly Dictionary<string, string> DefaultLanguage;
 
-		#region DiluvianEdits
+		#region DiluvianRunStartEdits
 		private void Run_onRunStartGlobal(RoR2.Run run)
 		{
 			if (run.selectedDifficulty > DifficultyIndex.Hard)
