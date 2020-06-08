@@ -340,8 +340,8 @@
 	"ITEM_PROTECTIONPOTION_DESC" : "<sprite name=\"WIP\"> Gain <style=cIsHealing>temporary barrier</style> for <style=cIsHealth>100% of your maximum health</style> when falling below <style=cIsHealth>30% health</style>. Consumed on use. <sprite name=\"WIP\">",
 	
 	"ITEM_THORNS_NAME" : "Razorwire",
-	"ITEM_THORNS_PICKUP" : "Getting hit causes you to explode in a burst of razors, dealing <style=cIsDamage>160% damage</style>. Hits up to <style=cIsDamage>5</style> <style=cStack>(+2 per stack)</style> targets in a <style=cIsDamage>25m</style> <style=cStack>(+10m per stack)</style> radius.",
-	"ITEM_THORNS_DESC" : "Getting hit causes you to explode in a burst of razors, dealing <style=cIsDamage>160% damage</style>. Hits up to <style=cIsDamage>5</style> <style=cStack>(+2 per stack)</style> targets in a <style=cIsDamage>25m</style> <style=cStack>(+10m per stack)</style> radius.",
+	"ITEM_THORNS_PICKUP" : "Getting hit causes you to explode in a burst of razors, dealing <style=cIsDamage>160% damage</style>. Hits up to <style=cIsDamage>5</style> <style=cStack>(+2 per stack)</style> targets in a <style=cIsDamage>25m</style> <style=cStack>(+10m per stack)</style> radius. These attacks cannot critically strike and are not triggered by non-lethal damage.",
+	"ITEM_THORNS_DESC" : "Getting hit causes you to explode in a burst of razors, dealing <style=cIsDamage>160% damage</style>. Hits up to <style=cIsDamage>5</style> <style=cStack>(+2 per stack)</style> targets in a <style=cIsDamage>25m</style> <style=cStack>(+10m per stack)</style> radius. These attacks cannot critically strike and are not triggered by non-lethal damage.",
 	
 	"ITEM_REGENONKILL_NAME" : "Fresh Meat",
 	"ITEM_REGENONKILL_PICKUP" : "Increases<style=cIsHealing> base health regeneration</style> by <style=cIsHealing>+2 hp/s</style> for <style=cIsUtility>3s</style> <style=cStack>(+3s per stack)</style> after killing an enemy.",

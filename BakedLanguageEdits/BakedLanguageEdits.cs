@@ -1,20 +1,8 @@
-﻿//TODO: remove unneeded "usings"
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Reflection;
-using System.Runtime.CompilerServices;
-using BepInEx;
-using BepInEx.Bootstrap;
-using IL.RoR2;
-using Mono.Cecil.Cil;
-using MonoMod.Cil;
-using On.RoR2;
+﻿using BepInEx;
 using R2API;
-using R2API.AssetPlus;
-using R2API.Utils;
 using RoR2;
-using UnityEngine;
+using R2API.Utils; //needed for submodule dependency
+using System.Collections.Generic; //needed for dictionary creation
 
 namespace blazingdrummer.BakedLanguageEdits
 {
@@ -22,6 +10,7 @@ namespace blazingdrummer.BakedLanguageEdits
 	[R2APISubmoduleDependency(nameof(LanguageAPI))]
 
 	[BepInDependency("com.harbingerofme.Diluvian", BepInDependency.DependencyFlags.SoftDependency)]
+	[BepInDependency("com.Rein.ReinWickedRing", BepInDependency.DependencyFlags.SoftDependency)]
 
 	[BepInPlugin("com.blazingdrummer.BakedLanguageEdits", "BakedLanguageEdits", "1.0.0")]
 	public sealed class BakedLanguageEdits : BaseUnityPlugin
@@ -34,7 +23,7 @@ namespace blazingdrummer.BakedLanguageEdits
 
 		private void Awake() //Called when loaded by BepInEx.
 		{
-			RoR2.Run.onRunStartGlobal += this.Run_onRunStartGlobal; //need this to handle Diluvian's difficulty-based edits
+			//? RoR2.Run.onRunStartGlobal += this.Run_onRunStartGlobal; //need this to handle Diluvian's difficulty-based edits
 
 			#region DiluvianDescriptionEdits
 			string text = "For those found wanting. <color=#ad41f1>N'Kuhana</color> watches with interest.<style=cStack>\n"; //the additional "/n" creates a space between the main body and the details
@@ -52,6 +41,13 @@ namespace blazingdrummer.BakedLanguageEdits
 			});
 
 			this.ReplaceString("DIFFICULTY_DILUVIAN_DESCRIPTION", text);
+			#endregion
+
+			#region WickedRingEdits
+			this.ReplaceString("WICKEDRING_PICKUP_DESC", "Lose <style=cIsDamage>1% critical chance</style> <style=cStack>(-0% per stack)</style>. <style=cIsDamage>Critical strikes</style> <style=cIsUtility>reduce all cooldowns</style> by 1s <style=cStack>(+1s per stack)</style> multiplied by the attack's proc coefficient, but <style=cDeath>damage you</style> after <style=cIsHealing>on-hit healing</style> based on <style=cIsHealth>your current health</style> and <style=cIsHealing>shield</style>, <style=cIsDamage>the attack's damage</style>, and the number of stacks as a multiplier. This damage will never be <style=cDeath>lethal</style>.");
+			this.ReplaceString("WICKEDRING_LOG_DESC", "Lose <style=cIsDamage>1% critical chance</style> <style=cStack>(-0% per stack)</style>. <style=cIsDamage>Critical strikes</style> <style=cIsUtility>reduce all cooldowns</style> by 1s <style=cStack>(+1s per stack)</style> multiplied by the attack's proc coefficient, but <style=cDeath>damage you</style> after <style=cIsHealing>on-hit healing</style> based on <style=cIsHealth>your current health</style> and <style=cIsHealing>shield</style>, <style=cIsDamage>the attack's damage</style>, and the number of stacks as a multiplier. This damage will never be <style=cDeath>lethal</style>.");
+			
+			LanguageAPI.Add("ITEM_COOLDOWNONCRIT_LORE", "No pain, No gain...");
 			#endregion
 		}
 
