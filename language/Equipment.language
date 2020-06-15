@@ -26,8 +26,8 @@
 	"EQUIPMENT_GHOSTGUN_DESC": "<sprite name=\"WIP\"> Summon a ghostly revolver that doubles damage on kill. <sprite name=\"WIP\">",
 
 	"EQUIPMENT_CRITONUSE_NAME": "Ocular HUD",
-	"EQUIPMENT_CRITONUSE_PICKUP": "Gain <style=cIsDamage>+100% Critical Strike Chance</style> for 8 seconds.\n<style=cStack>Base Cooldown: 60 seconds</style>",
-	"EQUIPMENT_CRITONUSE_DESC": "Gain <style=cIsDamage>+100% Critical Strike Chance</style> for 8 seconds.\n<style=cStack>Base Cooldown: 60 seconds</style>",
+	"EQUIPMENT_CRITONUSE_PICKUP": "Gain <style=cIsDamage>100% Critical Strike Chance</style> for 8 seconds.\n<style=cStack>Base Cooldown: 60 seconds</style>",
+	"EQUIPMENT_CRITONUSE_DESC": "Gain <style=cIsDamage>100% Critical Strike Chance</style> for 8 seconds.\n<style=cStack>Base Cooldown: 60 seconds</style>",
 
 	"EQUIPMENT_DRONEBACKUP_NAME": "The Back-up",
 	"EQUIPMENT_DRONEBACKUP_PICKUP": "Call <style=cIsDamage>4 Strike Drones</style> to fight for you. Lasts 25 seconds.\n<style=cStack>Base Cooldown: 100 seconds</style>",

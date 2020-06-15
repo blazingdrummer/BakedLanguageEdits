@@ -30,6 +30,9 @@
     <Reference Include="BepInEx.Preloader">
       <HintPath>C:\Users\Matthew Strobel\AppData\Roaming\r2modmanPlus-local\mods\profiles\Default\BepInEx\core\BepInEx.Preloader.dll</HintPath>
     </Reference>
+    <Reference Include="Diluvian">
+      <HintPath>Diluvian.dll</HintPath>
+    </Reference>
     <Reference Include="MMHOOK_Assembly-CSharp">
       <HintPath>C:\Users\Matthew Strobel\AppData\Roaming\r2modmanPlus-local\mods\profiles\Default\BepInEx\plugins\tristanmcpherson-R2API\R2API\MMHOOK_Assembly-CSharp.dll</HintPath>
     </Reference>
