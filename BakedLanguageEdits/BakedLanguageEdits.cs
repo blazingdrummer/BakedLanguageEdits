@@ -1,8 +1,8 @@
-﻿using BepInEx;
+﻿using System.Collections.Generic; //needed for dictionary creation
+using BepInEx;
 using R2API;
-using RoR2;
 using R2API.Utils; //needed for submodule dependency
-using System.Collections.Generic; //needed for dictionary creation
+using RoR2;
 
 namespace blazingdrummer.BakedLanguageEdits
 {
@@ -32,7 +32,7 @@ namespace blazingdrummer.BakedLanguageEdits
 				text,
 				">Difficulty Scaling: +75%",
 				">Player Health Regeneration: -60%",
-				">Tougher Times: Rolls with disadvantage",
+				">Tougher Times: Rolls with -1 luck",
 				">Monster Health Regeneration: +1.5% of MaxHP per second (out of danger)",
 				">Oneshot Protection: Protects only 1% of max health",
 				">Oneshot Protection: Also applies to monsters",
@@ -70,7 +70,8 @@ namespace blazingdrummer.BakedLanguageEdits
 		{
 			if (run.selectedDifficulty > DifficultyIndex.Hard)
 			{
-				this.ReplaceString("ITEM_BEAR_PICKUP", "Chance to <style=cIsHealing>block</style> incoming damage. <color=#ad41f1>Her curses rain upon this and find it unlucky. Roll with disadvantage.</color> <style=cIsUtility>Unaffected by other sources of luck.</style> <style=cStack>Stacks hyperbolically.\n(1 = 13%, 10 = 60%, 50 = 88%)</style>");
+				//technically the use of nested color tags breaks my own conventions here, but I'm making an exception for the sake of readability
+				this.ReplaceString("ITEM_BEAR_PICKUP", "<color=#ad41f1>A feeble attempt to thwart my challenge...\nN'kuhana's Curse: Rolls with -1 <color=#007fff>luck</color>, and remains unaffected by other sources.</color>\n\nChance to <style=cIsHealing>block</style> incoming damage. <style=cStack>Stacks hyperbolically.\n(1 = 13%, 10 = 60%, 50 = 88%)</style>");
 			}
 		}
 		#endregion

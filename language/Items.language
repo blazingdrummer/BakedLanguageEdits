@@ -1,6 +1,3 @@
-//TODO: change everything to present simple tense
-//TODO: remove nested style tags
-//TODO: use "increases", not "gains" - DONE?
 {
 	strings:
 	{
@@ -9,8 +6,8 @@
 	"EQUIPMENT_SWAP_CONTEXT" : "Swap for {0}",
 
 	"ITEM_CLOVER_NAME": "57 Leaf Clover",
-	"ITEM_CLOVER_PICKUP": "<color=#007fff>Luck is on your side.</color>\n\nAll random effects are rolled <style=cIsUtility>+1 <style=cStack>(+1 per stack)</style> times for a favorable outcome<style=cIsUtility>.",
-	"ITEM_CLOVER_DESC": "<color=#007fff>Luck is on your side.</color>\n\nAll random effects are rolled <style=cIsUtility>+1 <style=cStack>(+1 per stack)</style> times for a favorable outcome<style=cIsUtility>.",
+	"ITEM_CLOVER_PICKUP": "<style=cSub>Luck is on your side. Roll with advantage.</color>\n\nIncreases <color=#007fff>luck</color> by <style=cIsUtility>1</style> <style=cStack>(+1 per stack)</style>. All random effects roll one additional time for each <color=#007fff>luck</color>, taking the most favorable outcome. Does not affect interactables.",
+	"ITEM_CLOVER_DESC": "<style=cSub>Luck is on your side. Roll with advantage.</color>\n\nIncreases <color=#007fff>luck</color> by <style=cIsUtility>1</style> <style=cStack>(+1 per stack)</style>. All random effects roll one additional time for each <color=#007fff>luck</color>, taking the most favorable outcome. Does not affect interactables.",
 
 	"ITEM_SYRINGE_NAME": "Soldier's Syringe",
 	"ITEM_SYRINGE_PICKUP": "Increases <style=cIsDamage>attack speed</style> by <style=cIsDamage>15%</style> <style=cStack>(+15% per stack)</style>.",
@@ -18,34 +15,34 @@
 	"ITEM_SYRINGE_LORE" : "\"I ain't much for drugs... but hell, when fortune is knockin', ya gotta greet that door with a smile and a nod. Salud!\"\r\n\r\n-Signal echoes, UES Contact Light\r\n",
 
 	"ITEM_BEAR_NAME": "Tougher Times",
-	"ITEM_BEAR_PICKUP": "Chance to <style=cIsHealing>block</style> incoming damage. <style=cIsUtility>Unaffected by luck.</style> <style=cStack>Stacks hyperbolically.\n(1 = 13%, 10 = 60%, 50 = 88%)</style>",
-	"ITEM_BEAR_DESC": "Chance to <style=cIsHealing>block</style> incoming damage. <style=cIsUtility>Unaffected by luck.</style> <style=cStack>Stacks hyperbolically.\n(1 = 13%, 10 = 60%, 50 = 88%)</style>",
+	"ITEM_BEAR_PICKUP": "Chance to <style=cIsHealing>block</style> incoming damage. <style=cIsUtility>Unaffected by</style> <color=#007fff>luck</style><style=cIsUtility>.</style> <style=cStack>Stacks hyperbolically.\n(1 = 13%, 10 = 60%, 50 = 88%)</style>",
+	"ITEM_BEAR_DESC": "Chance to <style=cIsHealing>block</style> incoming damage. <style=cIsUtility>Unaffected by</style> <color=#007fff>luck</style><style=cIsUtility>.</style> <style=cStack>Stacks hyperbolically.\n(1 = 13%, 10 = 60%, 50 = 88%)</style>",
 	"ITEM_BEAR_LORE" : "<style=cMono>\n//--AUTO-TRANSCRIPTION FROM ROOM 4211B OF UES [Redacted] --//</style>\n\n\"Why\'d you sign up?\"\n\nWyatt\'s voice was bored. The mission to the Contact Light\'s last known location was taking longer than he expected.\n\nMalik was on the floor, cleaning her rifle. \"To get paid, mostly.\"\n\n\"And that\'s it?\"\n\nShe grunted in affirmation. She continued to wipe down the weapon.\n\n\"I\'m here to find something.\" He continued. \"I shipped it a few years back, but I don\'t think it made it before the train went down. I\'m guessing it\'s still in the Contact Light. So I\'m gonna get it back.\"\n\nShe began to tighten the last remaining bolts. Her routine near completion, she moved her gaze to Wyatt. \"Seriously?\"\n\n\"Yep!\"\n\nMalik raised her brow. \"There were over 7 million security chests in the Contact Light. The chance of you finding a specific one is impossible.\" She began to unfold her legs as she propped her rifle in the corner. \"And according to the distress beacon, the Contact Light was destroyed in orbit. Your shipment is probably floating around in space. It\'s all gone, Wyatt.\"\n\nHe grinned. \"I think I\'m gonna find it.\"\n\n\"You\'re terrible.\"\n",
 	
 	"ITEM_BEHEMOTH_NAME": "Brilliant Behemoth",
-	"ITEM_BEHEMOTH_PICKUP": "All of your attacks <style=cIsDamage>explode</style> in a <style=cIsDamage>4m</style> <style=cStack>(+1.5m per stack)</style> radius for a bonus <style=cIsDamage>60%</style> TOTAL damage to nearby enemies.",
-	"ITEM_BEHEMOTH_DESC": "All of your attacks <style=cIsDamage>explode</style> in a <style=cIsDamage>4m</style> <style=cStack>(+1.5m per stack)</style> radius for a bonus <style=cIsDamage>60%</style> TOTAL damage to nearby enemies.",
+	"ITEM_BEHEMOTH_PICKUP": "All of your attacks <style=cIsDamage>explode</style> in a <style=cIsUtility>4m radius</style> <style=cStack>(+1.5m per stack, *APC)</style> for a bonus <style=cIsDamage>60% TOTAL damage</style> <style=cStack>(APC=0.0)</style> to nearby enemies.",
+	"ITEM_BEHEMOTH_DESC": "All of your attacks <style=cIsDamage>explode</style> in a <style=cIsUtility>4m radius</style> <style=cStack>(+1.5m per stack, *APC)</style> for a bonus <style=cIsDamage>60% TOTAL damage</style> <style=cStack>(APC=0.0)</style> to nearby enemies.",
 
 	"ITEM_MISSILE_NAME": "AtG Missile Mk. 1",
-	"ITEM_MISSILE_PICKUP": "<style=cIsDamage>10%</style> chance on hit to fire a missile that deals <style=cIsDamage>300%</style> <style=cStack>(+300% per stack)</style> TOTAL damage.",
-	"ITEM_MISSILE_DESC": "<style=cIsDamage>10%</style> chance on hit to fire a missile that deals <style=cIsDamage>300%</style> <style=cStack>(+300% per stack)</style> TOTAL damage.",
+	"ITEM_MISSILE_PICKUP": "<color=#007fff>10% chance</style> <style=cStack>(*APC)</style> on hit to fire a missile that deals <style=cIsDamage>300% TOTAL damage</style> <style=cStack>(+300% per stack, APC=1.0)</style>.",
+	"ITEM_MISSILE_DESC": "<color=#007fff>10% chance</style> <style=cStack>(*APC)</style> on hit to fire a missile that deals <style=cIsDamage>300% TOTAL damage</style> <style=cStack>(+300% per stack, APC=1.0)</style>.",
 
 	"ITEM_EXPLODEONDEATH_NAME": "Will-o'-the-wisp",
-	"ITEM_EXPLODEONDEATH_PICKUP": "Killing an enemy spawns a <style=cIsDamage>lava pillar</style> in a <style=cIsDamage>15m</style> radius that deals <style=cIsDamage>400% base damage</style> <style=cStack>(+100% per stack)</style>.",
-	"ITEM_EXPLODEONDEATH_DESC": "Killing an enemy spawns a <style=cIsDamage>lava pillar</style> in a <style=cIsDamage>15m</style> radius for <style=cIsDamage>400%</style> <style=cStack>(+100% per stack)</style> base damage.",
+	"ITEM_EXPLODEONDEATH_PICKUP": "Killing an enemy creates a <style=cIsDamage>lava pillar</style> with a <style=cIsUtility>15m radius</style> that deals <style=cIsDamage>400% damage</style> <style=cStack>(+100% per stack, APC=1.0)</style>.",
+	"ITEM_EXPLODEONDEATH_DESC": "Killing an enemy creates a <style=cIsDamage>lava pillar</style> with a <style=cIsUtility>15m radius</style> that deals <style=cIsDamage>400% damage</style> <style=cStack>(+100% per stack, APC=1.0)</style>.",
 
 	"ITEM_DAGGER_NAME": "Ceremonial Dagger",
-	"ITEM_DAGGER_PICKUP": "Killing an enemy fires out <style=cIsDamage>3</style> <style=cIsDamage>homing daggers</style> that deal <style=cIsDamage>150%</style> <style=cStack>(+150% per stack)</style> base damage.",
-	"ITEM_DAGGER_DESC": "Killing an enemy fires out <style=cIsDamage>3</style> <style=cIsDamage>homing daggers</style> that deal <style=cIsDamage>150%</style> <style=cStack>(+150% per stack)</style> base damage.",
+	"ITEM_DAGGER_PICKUP": "Killing an enemy creates <style=cIsDamage>3 homing daggers</style> that deal <style=cIsDamage>150% damage</style> <style=cStack>(+150% per stack, APC=1.0)</style>.",
+	"ITEM_DAGGER_DESC": "Killing an enemy creates <style=cIsDamage>3 homing daggers</style> that deal <style=cIsDamage>150% damage</style> <style=cStack>(+150% per stack, APC=1.0)</style>.",
 	"ITEM_DAGGER_LORE": "The smell of sulfur fills the air.\r\n\r\n\"Oh god, they're so close. They have Hitchcock. Oh god.\"\r\n\r\n\"Grab the - the dagger. From my backpack. Quick.\"\r\n\r\n\"I-I don't... I got it. What the hell? This isn't gonna work, Marion. What the hell am I supposed to do with this against those...? They blew him into pieces - oh god.\"\r\n\r\n\"You have to... you have to kill me - ah! Kill me. Kill me with it.\"\r\n\r\n\"What? What the hell?\"\r\n\r\n\"Yeah - it's the only way. Please.\"\r\n\r\n\"What are you saying? Stop!\"\r\n\r\n\"It's a magic dagger. It'll save us. She will save us. But you have to kill me with it.\"\r\n\r\n\"Please don't... please don't make me. Oh god.\"\r\n\r\n\"Y-you have to. I've seen how this works. It's the only way - they're coming so close. You have to use it on me. Kill me.\"\r\n\r\n\"I'm so sorry Marion. I'm so so sorry. I don't think-\"\r\n\r\n\"Do it. Do it now. DO IT NOW! DO IT NOW! DO IT-\"",
 	
 	"ITEM_TOOTH_NAME": "Monster Tooth",
-	"ITEM_TOOTH_PICKUP": "Killing an enemy spawns a <style=cIsHealing>healing orb</style> that heals for <style=cIsHealing>8</style> <style=cStack>(+8 per stack)</style> health. <style=cStack>This item is collectively stacked as a team in multiplayer.</style>",
-	"ITEM_TOOTH_DESC": "Killing an enemy spawns a <style=cIsHealing>healing orb</style> that heals for <style=cIsHealing>8</style> <style=cStack>(+8 per stack)</style> health. <style=cStack>This item is collectively stacked as a team in multiplayer.</style>",
+	"ITEM_TOOTH_PICKUP": "Killing an enemy spawns an orb that <style=cIsHealing>heals for 8 health</style> <style=cStack>(+8 per stack)</style> when picked up. <style=cStack>This item is collectively stacked as a team in multiplayer.</style>",
+	"ITEM_TOOTH_DESC": "Killing an enemy spawns an orb that <style=cIsHealing>heals for 8 health</style> <style=cStack>(+8 per stack)</style> when picked up. <style=cStack>This item is collectively stacked as a team in multiplayer.</style>",
 
 	"ITEM_CRITGLASSES_NAME": "Lens-Maker's Glasses",
-	"ITEM_CRITGLASSES_PICKUP": "Increases attacks' chance to <style=cIsDamage>critically strike</style>, dealing <style=cIsDamage>double damage</style> by <style=cIsDamage>10%</style> <style=cStack>(+10% per stack)</style>.",
-	"ITEM_CRITGLASSES_DESC": "Increases attacks' chance to <style=cIsDamage>critically strike</style>, dealing <style=cIsDamage>double damage</style> by <style=cIsDamage>10%</style> <style=cStack>(+10% per stack)</style>.",
+	"ITEM_CRITGLASSES_PICKUP": "Increases chance to <style=cIsDamage>critically strike</style> by <color=#007fff>10%</color> <style=cStack>(+10% per stack)</style>, dealing <style=cIsDamage>double damage</style>.",
+	"ITEM_CRITGLASSES_DESC": "Increases chance to <style=cIsDamage>critically strike</style> by <color=#007fff>10%</color> <style=cStack>(+10% per stack)</style>, dealing <style=cIsDamage>double damage</style>.",
 
 	"ITEM_HOOF_NAME": "Paul's Goat Hoof",
 	"ITEM_HOOF_PICKUP": "Increases <style=cIsUtility>movement speed</style> by <style=cIsUtility>14%</style> <style=cStack>(+14% per stack)</style>.",
@@ -56,44 +53,46 @@
 	"ITEM_FEATHER_DESC": "Increases <style=cIsUtility>maximum jump count</style> by <style=cIsUtility>1</style> <style=cStack>(+1 per stack)</style>.",
  
 	"ITEM_CHAINLIGHTNING_NAME": "Ukulele",
-	"ITEM_CHAINLIGHTNING_PICKUP": "<color=#007fff>...and his music was electric.</color>\n\n<style=cIsDamage>25%</style> chance to fire <style=cIsDamage>chain lightning</style> for <style=cIsDamage>80%</style> TOTAL damage on up to <style=cIsDamage>3</style> <style=cStack>(+2 per stack)</style> targets within <style=cIsDamage>20m</style> <style=cStack>(+2m per stack)</style>.",
-	"ITEM_CHAINLIGHTNING_DESC": "<color=#007fff>...and his music was electric.</color>\n\n<style=cIsDamage>25%</style> chance to fire <style=cIsDamage>chain lightning</style> for <style=cIsDamage>80%</style> TOTAL damage on up to <style=cIsDamage>3</style> <style=cStack>(+2 per stack)</style> targets within <style=cIsDamage>20m</style> <style=cStack>(+2m per stack)</style>.",
+	"ITEM_CHAINLIGHTNING_PICKUP": "<style=cSub>...and his music was electric.</color>\n\n<color=#007fff>25% chance</style> <style=cStack>(*APC)</style> on hit to strike up to <style=cIsDamage>3 additional targets</style> <style=cStack>(+2 per stack)</style> within <style=cIsUtility>20m</style> <style=cStack>(+2m per stack)</style> with <style=cIsDamage>chain lightning</style> for <style=cIsDamage>80% TOTAL damage</style> <style=cStack>(APC=0.2)</style>.",
+	"ITEM_CHAINLIGHTNING_DESC": "<style=cSub>...and his music was electric.</color>\n\n<color=#007fff>25% chance</style> <style=cStack>(*APC)</style> on hit to strike up to <style=cIsDamage>3 additional targets</style> <style=cStack>(+2 per stack)</style> within <style=cIsUtility>20m</style> <style=cStack>(+2m per stack)</style> with <style=cIsDamage>chain lightning</style> for <style=cIsDamage>80% TOTAL damage</style> <style=cStack>(APC=0.2)</style>.",
 
 	"ITEM_SEED_NAME": "Leeching Seed",
-	"ITEM_SEED_PICKUP": "Dealing damage <style=cIsHealing>heals</style> you for <style=cIsHealing>1 <style=cStack>(+1 per stack)</style> health</style>.",
-	"ITEM_SEED_DESC": "Dealing damage <style=cIsHealing>heals</style> you for <style=cIsHealing>1 <style=cStack>(+1 per stack)</style> health</style>.",
+	"ITEM_SEED_PICKUP": "Dealing damage <style=cIsHealing>heals</style> you for <style=cIsHealing>1 health</style> <style=cStack>(+1 per stack, *APC)</style>.",
+	"ITEM_SEED_DESC": "Dealing damage <style=cIsHealing>heals</style> you for <style=cIsHealing>1 health</style> <style=cStack>(+1 per stack, *APC)</style>.",
 
 	"ITEM_ICICLE_NAME": "Frost Relic",
-	"ITEM_ICICLE_PICKUP": "Killing an enemy surrounds you with an <style=cIsDamage>ice storm</style> that deals <style=cIsDamage>600% damage per second</style>. The storm <style=cIsDamage>grows with every kill</style>, increasing its radius by <style=cIsDamage>1m</style>. Stacks up to <style=cIsDamage>6m</style> <style=cStack>(+6m per stack)</style>.",
-	"ITEM_ICICLE_DESC": "Killing an enemy surrounds you with an <style=cIsDamage>ice storm</style> that deals <style=cIsDamage>600% damage per second</style>. The storm <style=cIsDamage>grows with every kill</style>, increasing its radius by <style=cIsDamage>1m</style>. Stacks up to <style=cIsDamage>6m</style> <style=cStack>(+6m per stack)</style>.",
+	"ITEM_ICICLE_PICKUP": "Killing an enemy surrounds you with an <style=cIsDamage>ice storm</style> with a <style=cIsUtility>3m radius</style> that deals <style=cIsDamage>150% damage every 0.25s</style> <style=cStack>(APC=0.2)</style> for 5s. Additional kills <style=cIsUtility>increase the radius by 1m</style>, up to a maximum of <style=cIsUtility>6m</style> <style=cStack>(+6m per stack)</style>.",
+	"ITEM_ICICLE_DESC": "Killing an enemy surrounds you with an <style=cIsDamage>ice storm</style> with a <style=cIsUtility>3m radius</style> that deals <style=cIsDamage>150% damage every 0.25s</style> <style=cStack>(APC=0.2)</style> for 5s. Additional kills <style=cIsUtility>increase the radius by 1m</style>, up to a maximum of <style=cIsUtility>6m</style> <style=cStack>(+6m per stack)</style>.",
 
 	"ITEM_GHOSTONKILL_NAME": "Happiest Mask",
-	"ITEM_GHOSTONKILL_PICKUP": "Killing enemies has a <style=cIsDamage>7%</style> chance to <style=cIsDamage>spawn a ghost</style> of the killed enemy with <style=cIsDamage>1500%</style> damage. Lasts <style=cIsDamage>30s</style> <style=cStack>(+30s per stack)</style>.",
-	"ITEM_GHOSTONKILL_DESC": "Killing enemies has a <style=cIsDamage>7%</style> chance to <style=cIsDamage>spawn a ghost</style> of the killed enemy with <style=cIsDamage>1500%</style> damage. Lasts <style=cIsDamage>30s</style> <style=cStack>(+30s per stack)</style>.",
+	"ITEM_GHOSTONKILL_PICKUP": "Killing enemies has a <color=#007fff>7% chance</color> to <style=cIsUtility>spawn an allied ghost</style> of the killed enemy with health that decays over 30s <style=cStack>(+30s per stack)</style> and <style=cIsDamage>1500% increased damage</style>.",
+	"ITEM_GHOSTONKILL_DESC": "Killing enemies has a <color=#007fff>7% chance</color> to <style=cIsUtility>spawn an allied ghost</style> of the killed enemy with health that decays over 30s <style=cStack>(+30s per stack)</style> and <style=cIsDamage>1500% increased damage</style>.",
 
 	"ITEM_MUSHROOM_NAME": "Bustling Fungus",
-	"ITEM_MUSHROOM_PICKUP": "After standing still for <style=cIsHealing>2</style> seconds, create a zone that <style=cIsHealing>heals</style> for <style=cIsHealing>4.5%</style> <style=cStack>(+2.25% per stack)</style> of your <style=cIsHealing>health</style> every second to all allies within <style=cIsHealing>3m</style> <style=cStack>(+1.5m per stack)</style>.",
-	"ITEM_MUSHROOM_DESC": "After standing still for <style=cIsHealing>2</style> seconds, create a zone that <style=cIsHealing>heals</style> for <style=cIsHealing>4.5%</style> <style=cStack>(+2.25% per stack)</style> of your <style=cIsHealing>health</style> every second to all allies within <style=cIsHealing>3m</style> <style=cStack>(+1.5m per stack)</style>.",
+	"ITEM_MUSHROOM_PICKUP": "Standing still for 2s creates a zone that <style=cIsHealing>heals</style> all allies within <style=cIsUtility>3m</style> <style=cStack>(+1.5m per stack)</style> for <style=cIsHealth>4.5% of their maximum health</style> <style=cStack>(+2.25% per stack)</style> every second.",
+	"ITEM_MUSHROOM_DESC": "Standing still for 2s creates a zone that <style=cIsHealing>heals</style> all allies within <style=cIsUtility>3m</style> <style=cStack>(+1.5m per stack)</style> for <style=cIsHealth>4.5% of their maximum health</style> <style=cStack>(+2.25% per stack)</style> every second.",
 
 	"ITEM_CROWBAR_NAME": "Crowbar",
-	"ITEM_CROWBAR_PICKUP": "Increases TOTAL damage by <style=cIsDamage>50%</style> <style=cStack>(+50% per stack)</style> to enemies above <style=cIsHealth>90% health</style>.",
-	"ITEM_CROWBAR_DESC": "Increases TOTAL damage by <style=cIsDamage>50%</style> <style=cStack>(+50% per stack)</style> to enemies above <style=cIsHealth>90% health</style>.",
+	"ITEM_CROWBAR_PICKUP": "Increases TOTAL damage by <style=cIsDamage>50%</style> <style=cStack>(+50% per stack)</style> to enemies above <style=cIsHealth>90% maximum health</style>.",
+	"ITEM_CROWBAR_DESC": "Increases TOTAL damage by <style=cIsDamage>50%</style> <style=cStack>(+50% per stack)</style> to enemies above <style=cIsHealth>90% maximum health</style>.",
 
 	"ITEM_ATTACKSPEEDONCRIT_NAME": "Predatory Instincts",
-	"ITEM_ATTACKSPEEDONCRIT_PICKUP": "Increases <style=cIsDamage>critical strike chance</style> by <style=cIsDamage>5%</style> <style=cStack>(+0% per stack)</style>. <style=cIsDamage>Critical strikes</style> increase <style=cIsDamage>attack speed</style> by <style=cIsDamage>12%</style>. Maximum cap of <style=cIsDamage>36% <style=cStack>(+24% per stack)</style> attack speed</style>.",
-	"ITEM_ATTACKSPEEDONCRIT_DESC": "Increases <style=cIsDamage>critical strike chance</style> by <style=cIsDamage>5%</style> <style=cStack>(+0% per stack)</style>. <style=cIsDamage>Critical strikes</style> increase <style=cIsDamage>attack speed</style> by <style=cIsDamage>12%</style>. Maximum cap of <style=cIsDamage>36% <style=cStack>(+24% per stack)</style> attack speed</style>.",
+	"ITEM_ATTACKSPEEDONCRIT_PICKUP": "<style=cIsDamage>Critical strikes</style> increase <style=cIsDamage>attack speed</style> by <style=cIsDamage>12%</style>, up to a maximum cap of <style=cIsDamage>36%</style> <style=cStack>(+24% per stack)</style>. Increases <style=cIsDamage>critical strike chance</style> by <style=cIsDamage>5%</style> <style=cStack>(+0% per stack)</style>.",
+	"ITEM_ATTACKSPEEDONCRIT_DESC": "<style=cIsDamage>Critical strikes</style> increase <style=cIsDamage>attack speed</style> by <style=cIsDamage>12%</style>, up to a maximum cap of <style=cIsDamage>36%</style> <style=cStack>(+24% per stack)</style>. Increases <style=cIsDamage>critical strike chance</style> by <style=cIsDamage>5%</style> <style=cStack>(+0% per stack)</style>.",
 	"ITEM_ATTACKSPEEDONCRIT_LORE": "Gossip spreads quickly in terrified communities. Stories that keep the more fearful lizardfolk in their passageways. Hushed tales that frighten the most commanding of stone constructs and woodfolk and creatures of the plains. Fear travels between the trees and the valleys.\n\nA demon, fallen from the Sky, mighty enough to slay Providence and his Wurms. Only two arms, two legs - but with 22 unblinking, crimson eyes.\n",
 
+//TODO: START HERE
+
 	"ITEM_BLEEDONHIT_NAME": "Tri-Tip Dagger",
-	"ITEM_BLEEDONHIT_PICKUP": "<style=cIsDamage>15%</style> <style=cStack>(+15% per stack)</style> chance to <style=cIsDamage>bleed</style> an enemy for <style=cIsDamage>240%</style> base damage.",
-	"ITEM_BLEEDONHIT_DESC": "<style=cIsDamage>15%</style> <style=cStack>(+15% per stack)</style> chance to <style=cIsDamage>bleed</style> an enemy for <style=cIsDamage>240%</style> base damage.",
+	"ITEM_BLEEDONHIT_PICKUP": "<color=#007fff>15% chance</color> <style=cStack>(+15% per stack, *APC)</style> to <style=cIsDamage>bleed</style> an enemy for <style=cIsDamage>240% damage</style>.",
+	"ITEM_BLEEDONHIT_DESC": "<color=#007fff>15% chance</color> <style=cStack>(+15% per stack)</style> to <style=cIsDamage>bleed</style> an enemy for <style=cIsDamage>240% damage</style>.",
 
 	"ITEM_SPRINTOUTOFCOMBAT_NAME": "Red Whip",
-	"ITEM_SPRINTOUTOFCOMBAT_PICKUP": "Leaving combat boosts your <style=cIsUtility>movement speed</style> by <style=cIsUtility>30%</style> <style=cStack>(+30% per stack)</style>.",
-	"ITEM_SPRINTOUTOFCOMBAT_DESC": "Leaving combat boosts your <style=cIsUtility>movement speed</style> by <style=cIsUtility>30%</style> <style=cStack>(+30% per stack)</style>.",
+	"ITEM_SPRINTOUTOFCOMBAT_PICKUP": "Using no skills for 5s boosts your <style=cIsUtility>movement speed</style> by <style=cIsUtility>30%</style> <style=cStack>(+30% per stack)</style>. This effect ends after using skills.",
+	"ITEM_SPRINTOUTOFCOMBAT_DESC": "Using no skills for 5s boosts your <style=cIsUtility>movement speed</style> by <style=cIsUtility>30%</style> <style=cStack>(+30% per stack)</style> until skills are used again.",
 
 	"ITEM_FALLBOOTS_NAME": "H3AD-5T v2",
-	"ITEM_FALLBOOTS_PICKUP": "Increases jump height. Hold 'Interact' to slam down to the ground, creating a <style=cIsDamage>10m</style> radius <style=cIsDamage>kinetic explosion</style>. Deals <style=cIsDamage>2300%</style> base damage that scales up with <style=cIsDamage>speed</style>. Recharges in <style=cIsDamage>10</style> <style=cStack>(-50% per stack, exponential)</style> seconds.",
+	"ITEM_FALLBOOTS_PICKUP": "Increases jump height and negates fall damage. Hold 'Interact' to slam down to the ground, creating a <style=cIsUtility>10m radius</style> <style=cIsDamage>kinetic explosion</style> that deals <style=cIsDamage>2300%</style> base damage that scales up with <style=cIsDamage>speed</style>. Recharges in <style=cIsDamage>10</style> <style=cStack>(-50% per stack, exponential)</style> seconds.",
 	"ITEM_FALLBOOTS_DESC": "Increases jump height. Hold 'Interact' to slam down to the ground, creating a <style=cIsDamage>10m</style> radius <style=cIsDamage>kinetic explosion</style>. Deals <style=cIsDamage>2300%</style> base damage that scales up with <style=cIsDamage>speed</style>. Recharges in <style=cIsDamage>10</style> <style=cStack>(-50% per stack, exponential)</style> seconds.",
 	"ITEM_FALLBOOTS_LORE": "\"Denizens of lower-gravity planets like Mercury historically have had trouble adjusting to life on other planets. Mercurians, with their lower bone density (left) would typically shatter their femur within a week on heavier planets. Members of asteroid-rigged flotillas and colony ships have similar issues when arriving home from space.\r\n\r\nThe invention of Kinetic Dispersion Rings (above) help alleviate the stress of heavier-than-normal gravity by converting kinetic energy into heat, sound, and light. Settlers from Mercury could finally leave their home planet in safety.\"\r\n\r\n-Mercurian History Museum\r\n",
 
@@ -115,11 +114,11 @@
 	"ITEM_PHASING_LORE": "Order:  Misc. OW Artifacts (47)\r\nTracking Number: 01******\r\nEstimated Delivery: 08\/13\/2056\r\nShipping Method: Priority\r\nShipping Address: National Old War Museum, New Orleans, Earth\r\nShipping Details:\r\n\r\nWe've managed to round up all the local Old War artifacts that we could find. A lot of interesting things here: rifles, rations, pamphlets. We even found a prototype stealthkit in fantastic condition; that could be a great centerpiece for your exhibit.\r\n\r\nHowever, a slight issue: in transit, the truck hit a pothole and jostled all the ship. It seemed to have actually activated the stealth drive - some strange short-circuit - and our team can't actually confirm the location of the stealthkit. It should be in one of the boxes - we will be expecting the commission to include the stealthkit.\r\n",
 	
 	"ITEM_HEALONCRIT_NAME": "Harvester's Scythe",
-	"ITEM_HEALONCRIT_PICKUP": "Increases <style=cIsDamage>critical strike chance</style> by <style=cIsDamage>5%</style> <style=cStack>(+0% per stack)</style>. <style=cIsDamage>Critical strikes</style> <style=cIsHealing>heal</style> for <style=cIsHealing>8</style> <style=cStack>(+4 per stack)</style> <style=cIsHealing>health</style>.",
-	"ITEM_HEALONCRIT_DESC": "Increases <style=cIsDamage>critical strike chance</style> by <style=cIsDamage>5%</style> <style=cStack>(+0% per stack)</style>. <style=cIsDamage>Critical strikes</style> <style=cIsHealing>heal</style> for <style=cIsHealing>8</style> <style=cStack>(+4 per stack)</style> <style=cIsHealing>health</style>.",
+	"ITEM_HEALONCRIT_PICKUP": "<style=cIsDamage>Critical strikes</style> <style=cIsHealing>heal</style> for <style=cIsHealing>8</style> <style=cStack>(+4 per stack)</style> <style=cIsHealing>health</style>. Increases <style=cIsDamage>critical strike chance</style> by <style=cIsDamage>5%</style> <style=cStack>(+0% per stack)</style>.",
+	"ITEM_HEALONCRIT_DESC": "<style=cIsDamage>Critical strikes</style> <style=cIsHealing>heal</style> for <style=cIsHealing>8</style> <style=cStack>(+4 per stack)</style> <style=cIsHealing>health</style>. Increases <style=cIsDamage>critical strike chance</style> by <style=cIsDamage>5%</style> <style=cStack>(+0% per stack)</style>.",
 
 	"ITEM_HEALWHILESAFE_NAME": "Cautious Slug",
-	"ITEM_HEALWHILESAFE_PICKUP": "Increases <style=cIsHealing>base health regeneration</style> by <style=cIsHealing>+4 hp/s</style> <style=cStack>(+4 hp/s per stack)</style>while outside of combat.",
+	"ITEM_HEALWHILESAFE_PICKUP": "Avoiding damage for 5 seconds increases <style=cIsHealing>base health regeneration</style> by <style=cIsHealing>+4 hp/s</style> <style=cStack>(+4 hp/s per stack)</style>. This effect ends after taking damage.",
 	"ITEM_HEALWHILESAFE_DESC": "Increases <style=cIsHealing>base health regeneration</style> by <style=cIsHealing>+4 hp/s</style> <style=cStack>(+4 hp/s per stack)</style>while outside of combat.",
 
 	"ITEM_JUMPBOOST_NAME": "Wax Quail",

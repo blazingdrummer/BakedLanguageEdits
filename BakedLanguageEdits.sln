@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BakedLanguageEdits", "BakedLanguageEdits\BakedLanguageEdits.csproj", "{1D3CB43C-E878-465C-A44E-71C0CE4A3208}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BakedLanguageEdits", "BakedLanguageEdits\BakedLanguageEdits.csproj", "{1D3CB43C-E878-465C-A44E-71C0CE4A3208}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2245B0CA-DFA5-4016-93E0-345F3FE0B1E2}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
