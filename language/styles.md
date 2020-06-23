@@ -6,13 +6,18 @@
 - general rule: numerical highlights should include both the number and descriptive word, followed by the stacking characteristics (if they exist)
 - general rule: order behaviors from most to least important to enable more rapid digestion of concepts
 - tags should not be nested for the sake of readability
+- `on hit` should be used to indicate a need for "a hit" to occur, even if no damage was actually done (due to something like Tougher Times)
+  - eg Brilliant Behemoth, which always triggers, even when shooting the ground, should not use this language
 - health highlights include the entire phrase (eg `25% of maximum health`), followed by the stacking characteristics
   - always clarify between `maximum` and `current` health (eg don't use `above 90% health`, use `above 90% maximum health`)
-- damage highlights include the words `damage` and `TOTAL`, followed by the stacking characteristics //this is not vanilla's style, but is more readable imo
+- damage highlights include words like `damage`, followed by the stacking characteristics //this is not vanilla's style, but is more readable imo
+- `TOTAL` is used to describe effects that occur after everything else is taken into account, and are thus multiplied against any other competing effects
+  - multiplying attacks (like Behemoth, ATG, etc) should specify that they are based on the "triggering hit's TOTAL damage"
 - utility highlights typically include entire sentences and the punctuation (unlike normal)
 - distance values AND their describing term (eg radius) are highlighted as utility
 - time values (eg durations) should not be highlighted
   - an exception to this is in the case of DPS descriptions like Frost Relic, where the time period (but not the duration) should be included in the damage highlight
+- `creates` implies the effect originates from a slain enemy, `fires` implies the effect originates from the character
 - keep everything in `present simple` tense
 
 # Syntax Templates
