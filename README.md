@@ -130,3 +130,5 @@ If you do find something that looks off or needs editing, please send me a scree
 `2.0.8`
 
   - slightly adjusted BakedLanguageEdits to match Blight changes in GeneralFixes
+
+TODO: update with changes from new items, GenFixes, etc
